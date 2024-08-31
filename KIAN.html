@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Template</title>
+        <style>
+            html, body{   
+                line-height: 1.5;  
+                font-family: Lato, sans-serif;
+            }
+            #navigation
+            {
+                background-color: black;
+                height: 25px;
+                padding: 16px 0px 8px 7px;
+                margin: -9px -8px 0px -8px;
+                position: fixed;
+                width: 100%;
+                font-family: sans-serif;
+                word-spacing: 15px;
+                font-weight: 400;
+                font-variant: normal;
+                list-style-position: outside;
+            }
+            li a
+            {
+                text-decoration: none;
+                color: white;
+                margin-left: 28px;
+            }
+            #heading{
+                text-align: center;
+                letter-spacing: 4px;
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 30px;
+                font-family: sans-serif;
+                font-weight: 400;
+            }
+            #heading2{
+                text-align: center;
+                color: grey;
+                font-family: sans-serif;
+                font-style: italic;
+            }
+            #paragraph{
+                margin-left: 325px;
+                margin-right: 325px;
+                text-align: justify;
+                font-family: sans-serif;
+            }
+            #Name{
+                text-align: center;
+                font-size: 15px;
+            }
+            #img{
+                width: 154px;
+                outline: auto;
+                outline-color: white;
+            }
+            #tour-dates{
+                width: 1425px;
+                background-color: black;
+                color: white;
+                margin: 40px 0px 0px -8px;
+            }
+            #tour{
+                font-size: 30px;
+                color: white;
+                text-align: center;
+            }
+            #list{
+                color: grey;
+                background-color: white;
+                list-style-type: none;
+                margin-block-start: 1em;
+                padding: 0;
+                margin: 0;
+                margin-right: 250px;
+                margin-left: 250px;
+                padding-left: 30px;
+                border-bottom: 1px solid #ddd;
+                line-height: 1.5;
+                font-size: 15px;
+                word-spacing: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            #newyork{
+                margin-left: 290px;
+                background-color: white;
+                width: 250px;
+                color: black;
+                font-family: "Lato", sans-serif;
+            }
+            #paris{
+                margin-left: 600px;
+                margin-top: -497px;
+                background-color: white;
+                width: 250px;
+                color: black;
+                font-family: "Lato", sans-serif;
+            }
+            #sanfran{
+                margin-left: 900px;
+                background-color: white;
+                width: 250px;
+                color: black;
+                font-family: "Lato", sans-serif;
+                margin-top: -497px;
+            }
+            #buy{
+                font-size: 15px;
+                background-color: black;
+                color: white;
+                padding: 5px;
+            }
+            #newyorkimage:hover{
+                opacity: 0.6;
+            }
+            #buy:hover{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="navigation">
+            <li>
+                <a href="">HOME</a>
+                <a href="">BAND</a>
+                <a href="">TOUR</a>
+                <a href="">CONTACT</a>
+                <a href="">MORE</a>
+            </li>
+        </ul>
+        <div>
+            <img src="chica.jpeg" style="width: 1425px;margin: 40px 0px 0px -8px;">
+        </div><br><br><br>
+        <div id="text">
+            <h2 id="heading">THE BAND</h2>
+            <p id="heading2"><i>We love music</i></p>
+            <p id="paragraph">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p><br><br><br>
+            <b></b><pre id="Name">Name                        Name                          Name
+
+<img id="img" src="bandmember.jpg">           <img id="img" src="bandmember.jpg">            <img id="img" src="bandmember.jpg">
+            </pre>
+        </div><br><br>
+        <div id="tour-dates"><br><br><br>
+            <h2 id="tour">TOUR DATES</h2>
+            <p id="heading2"><i>Remember to book your tickets!</i></p><br><br>
+            <ul>
+                <li id="list">September <span style="background-color: red; color: white; padding: 1px 1.5px 2px 1.5px; word-spacing: 5px;">Sold out</span></li>
+                <li id="list">October <span style="background-color: red; color: white; padding: 1px 1.5px 2px 1.5px; word-spacing: 5px;">Sold out</span></li>
+                <li id="list">November <span style="text-align: right; border-radius: 50%; border-color: black; background-color: black; padding-right: 8px; padding-left: 8px; margin-left: 700px;">3</span></li>
+
+              </ul><br>
+            <div id="newyork">
+                <img src="newyork.jpg" style="width: 250px;" id="newyorkimage">
+                <pre style="font-family: Lato, sans-serif;">    New york
+                    <div style="color: grey;">    Fri 27 Nov 2016</div>
+    Praesent tincidunt sed tellus ut
+     rutrum sed vitae justo.
+
+     <button id="buy">Buy Tickets</button>
+                </pre>
+            </div><br><br>
+            <div id="paris">
+                <img src="paris.jpg" style="width: 250px;" id="newyorkimage">
+                <pre style="font-family: Lato, sans-serif;">    Paris
+                    <div style="color: grey;">    Sat 28 Nov 2016</div>
+    Praesent tincidunt sed tellus ut
+     rutrum sed vitae justo.
+
+     <button id="buy">Buy Tickets</button>
+                </pre>
+            </div><br><br>
+            <div id="sanfran">
+                <img src="sanfran.jpg" style="width: 250px;" id="newyorkimage">
+                <pre style="font-family: Lato, sans-serif;">    San Francisco
+                    <div style="color: grey;">    Sun 29 Nov 2016</div>
+    Praesent tincidunt sed tellus ut
+     rutrum sed vitae justo.
+
+     <button id="buy">Buy Tickets</button>
+                </pre>
+            </div><br><br><br><br>
+        </div><br><br><br>
+        <h1 id="heading">CONTACT</h1>
+        <i style="color: grey; font-family: sans-serif; margin-left: 634px;">Fan? Drop a note!</i><br><br><form>
+        <pre style="font-family: sans-serif; font-size: 20px;">                                                               Chicago, US                                     <input placeholder="Name">    <input placeholder="Email">
+                                                               Phone: +00 151515                          <input placeholder="Message">
+                                                               Email: mail@mail.com                                                                     <button id="buy">Send</button>                     
+        </pre></form>
+        <img src="map.jpg" style="width: 1425px;margin: 40px 0px 0px -8px;">
+    </body>
+</html>
